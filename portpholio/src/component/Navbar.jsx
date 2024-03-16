@@ -33,7 +33,7 @@ function Navbar() {
 ]
     return <>
 
-        <div className='flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed'>
+        <div className='flex justify-between items-center w-full h-20 text-white bg-black px-4 '>
              <div>
                 <h1 className=' text-5xl font-signature ml-2'>Aman</h1>
              </div>
