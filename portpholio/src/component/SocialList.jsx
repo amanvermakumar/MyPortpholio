@@ -56,7 +56,7 @@ const SocialList = () => {
     },
 ]
   return (
-    <div className=' flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden  lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
             {list.map((p)=>(  <li key={p.id} className={'flex justify-between items-center ml-[-100px] bg-gray-500 hover:rounded-md duration-100 hover:ml-[-10px] w-40 h-14 px-4'}>
   <a href={p.href} download={p.download} target='blank' className=' flex justify-between items-center w-full text-white'>
