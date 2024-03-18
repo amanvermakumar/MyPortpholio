@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './component/Navbar'
 import Home from './component/Home'
 import SocialList from './component/SocialList'
+import About from './component/About'
+import Portfolio from './component/Portfolio'
 
 function App() {
   
@@ -13,9 +15,13 @@ function App() {
     <>
  <Navbar></Navbar>
  <Home></Home>
+ <About></About>
+ <Portfolio></Portfolio>
  <SocialList></SocialList>
+
     </>
   )
+
 }
 
 export default App
